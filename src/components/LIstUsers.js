@@ -42,16 +42,15 @@ class LIstUsers  extends React.Component{
                 <br></br>
                 <div className = "row">
                     <table className = "table table-striped table-bordered">
-
                         <thead>
-                        <tr>
-                            <th>   Name</th>
-                            <th> Dob</th>
-                            <th> Username</th>
-                            <th> Email</th>
+                            <tr>
+                                <th>   Name</th>
+                                <th> Dob</th>
+                                <th> Username</th>
+                                <th> Email</th>
 
-                            <th> Actions</th>
-                        </tr>
+                                <th> Actions</th>
+                            </tr>
                         </thead>
                         <tbody>
                         {

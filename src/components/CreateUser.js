@@ -133,17 +133,17 @@ class CreateUser extends React.Component{
                                     </div>
                                     <div className = "form-group">
                                         <label>Enter Email </label>
-                                        <input placeholder="Entry Email" type="email" name="mobile" className="form-control"
+                                        <input placeholder="Enter Email" type="email" name="mobile" className="form-control"
                                                value={this.state.email} onChange={this.changeEmailHandler} required/>
                                     </div>
                                     <div className = "form-group">
                                         <label>Enter Username </label>
-                                        <input placeholder="Entry Username" name="mobile" className="form-control"
+                                        <input placeholder="Enter Username" name="mobile" className="form-control"
                                                value={this.state.username} onChange={this.changeUserNameHandler} required/>
                                     </div>
                                     <div className = "form-group">
                                         <label>Enter Password </label>
-                                        <input placeholder="Entry Password" name="mobile" className="form-control"
+                                        <input placeholder="Enter Password" name="mobile" className="form-control"
                                             type="password" value={this.state.password} onChange={this.changePasswordHandler} required/>
                                     </div>
 
