@@ -37,7 +37,7 @@ class LIstUsers  extends React.Component{
             <div>
                 <h2 className="text-center">Users List</h2>
                 <div className = "row">
-                    <button className="btn btn-primary" onClick={this.addUser}> Add Employee</button>
+                    <button className="btn btn-primary" onClick={this.addUser}>Add User</button>
                 </div>
                 <br></br>
                 <div className = "row">
